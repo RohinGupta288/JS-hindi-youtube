@@ -14,8 +14,8 @@ true->1 and false->0
 */
 let isLoggedIn="rohin";
 let booleanIsLoggedIn=Boolean(isLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 /*
 1->true
@@ -24,4 +24,27 @@ console.log(booleanIsLoggedIn);
 ""->false
 "rohin"->true
 */
+
+let str1="hello";
+let str2=" Rohin";
+//let str3=str1+str2;
+//let str3;
+//console.log(str3);
+// console.log(str3=str1 + str2);
+/*
+we can re-assign a new value to a variable inside console.log(), but we cant declare a new variable inside it
+*/
+
+// console.log(2+2);
+// console.log(2*2);
+// console.log(2-2);
+// console.log(2**2);
+// console.log(2%2);
+
+//console.log("1" + 2 + 2);  //=>122
+//console.log(1 + 2 + "2");  //=>32
+console.log(+true);  //=>1
+console.log(+false); //=>0
+console.log(+"");    //=>0
+console.log(+"abc"); //=>NaN
 
