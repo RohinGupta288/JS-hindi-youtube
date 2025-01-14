@@ -28,9 +28,11 @@ JsUser.email = "rohin@micrSoft.com";
 JsUser.greeting = function(){
     console.log("hello JS user");
 }
-console.log(JsUser.greeting());//<=if done like JsUser.greeting it gives
-                               //only the reference of 
+// console.log(JsUser.greeting());//<=if done like JsUser.greeting it gives
+                               //only the reference of the function
 JsUser.greeting2 = function(){
     console.log(`hello JS user, ${this.name}`);
 }
-console.log(JsUser.greeting2());
+// console.log(JsUser.greeting2()); <- this gives the hello jsuser... along with undefined
+                                    // this is because of another console.log() inside the function
+JsUser.greeting2();
